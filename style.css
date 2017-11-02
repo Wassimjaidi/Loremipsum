@@ -1,0 +1,73 @@
+body {
+  background-color: #E9FFFB;
+}
+
+
+#dogpupilleft,
+#dogpupilright {
+  position: relative;
+  background: #000000;
+  border-radius: 50%;
+}
+
+
+#dogeyeleft,
+#dogeyeright {
+  position: absolute;
+  background: #FFFFFF;
+  overflow: hidden;
+  border-radius: 50%;
+  z-index: -2;
+}
+
+#dogpupilleft {
+  width: 55px;
+  height: 55px;
+}
+
+#dogeyeleft
+{
+  width: 130px;
+  height: 130px;
+  left: 47px;
+      top: 127px;
+}
+
+#dogpupilright{
+  width: 55px;
+  height: 55px;
+}
+
+#dogeyeright {
+  width: 130px;
+  height: 130px;
+  left: 198px;
+  top: 127px;
+}
+
+.sub-btn{
+  padding: 15px 30px;
+  border-radius: 20px;
+  border: 1px solid #f9423a;
+  background: #f9423a; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f9423a 0%, #eada24 36%, #00c7b1 73%, #0090da 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #f9423a 0%,#eada24 36%,#00c7b1 73%,#0090da 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #f9423a 0%,#eada24 36%,#00c7b1 73%,#0090da 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.btn-color {
+   font-size: 14px;
+   font-weight: 400;
+   padding: 15px 30px;
+   border-radius: 20px;
+   color: #000;
+   /*border: 1px solid #f9423a;*/
+   background-color: #fff;
+   transition: all .7s;
+}
+.btn-color:hover {
+   color: #fff;
+   border: 1px solid  #f9423a;
+   background-color: transparent;
+
+}
